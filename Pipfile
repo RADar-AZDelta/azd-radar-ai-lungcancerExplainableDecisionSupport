@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = false
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+lazydocs = "*"
+black = "*"
+bandit = "*"
+
+[packages]
+scikit-learn = "*"
+statsmodels = "*"
+imbalanced-learn = "*"
+seaborn = "*"
+xgboost = "*"
+lightgbm = "*"
+plotly = "*"
+dash = "*"
+dash-html-components = "*"
+dash-core-components = "*"
+dash-design-kit = "*"
+dash-daq = "*"
+dash-bootstrap-components = "*"
+jsonpickle = "*"
+numpy = "*"
+matplotlib = "==3.5.3"
+shap = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.10"
