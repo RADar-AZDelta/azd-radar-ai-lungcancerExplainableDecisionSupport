@@ -1,0 +1,33 @@
+rf_param:
+  model__min_samples_split: [4,6,8,10,12]
+  model__n_estimators: [50,100,150]
+  model__max_depth: [4,6,8,10,12]
+  model__min_samples_leaf: [4,6,8,10,12]
+   
+ada_param: 
+  model__n_estimators: [50,100,150]
+
+svm_param: 
+  model__C: [100, 10, 1.0, 0.01, 0.001]
+  model__gamma: [1, 0.1, 0.01, 0.001]
+  
+
+knn_param: 
+  model__weights: ["uniform", "distance"]
+  model__n_neighbors: [4,6,8,10,12]
+  model__metric: ["euclidean", "manhattan"]   
+
+lor_param: 
+  model__solver: ["liblinear"]
+  model__C: [100, 10, 1.0, 0.1, 0.001]
+  model__max_iter: [100,150,200,250,300]
+  model__penalty: ["l1", "l2"]
+  
+xgb_param: 
+  model__learning_rate: [0.1, 0.2, 0.3]
+  model__max_depth: [4,6,8,10,12]
+  model__n_estimators: [50,100,150]
+  model__min_child_weight: [1,2,3,4]
+  model__subsample: [1.0, 0.5, 0.1]
+  model__eval_metric: ["logloss"]
+  model__use_label_encoder: [False]
