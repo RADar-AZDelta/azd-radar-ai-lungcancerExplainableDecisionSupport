@@ -3,14 +3,29 @@
 
 This repository contains the code and trained pipelines from the paper "Development of an explainable clinical decision support tool for advanced lung cancer patients".
 
+
 Notes on use
 =======
 
-Start by installing the correct versions of the packages from the Pipfile.
+**Installed requirements**: 
+- python version 3.10
+- jupyter notebook 
 
+Install the correct versions of the packages.
+
+With pip:
+
+````bash
+pip install -r requirements.txt
+````
+*OR* 
+
+
+With with pipenv:
 ```bash
 pipenv install 
 ````
+
 
 In the folder **code**, you can find two notebooks; training.ipynb and explainability.ipynb. The former guides you through training a pipeline with the preprocessing steps and models as discussed in the paper, the latter plots several Shapley plots. 
 
