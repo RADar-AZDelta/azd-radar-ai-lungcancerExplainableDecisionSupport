@@ -11,3 +11,4 @@ scipy==1.10.1
 shap==0.41.0
 tqdm==4.65.0
 xgboost==1.7.1
+yaml==6.0
