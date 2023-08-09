@@ -57,13 +57,13 @@ pip install -r requirements.txt
 *OR* 
 
 
-With with pipenv:
+With pipenv:
 ```bash
 pipenv install 
 ````
 
 
-In the folder **code**, you can find three notebooks; feature_selection.ipynb, training.ipynb and explainability.ipynb. The first one demonstrates how we did the feature selection, the second guides you through training a pipeline with the preprocessing steps and models as discussed in the paper, the third plots several Shapley plots. The notebooks only demonstrates for one cohort (mortality six weeks after baseline). The method is always the same for each research question.
+In the folder **code**, you can find four notebooks; feature_selection.ipynb, training.ipynb, explainability.ipynb and inference.ipynb. The first one demonstrates how we did the feature selection, the second guides you through training a pipeline with the preprocessing steps and models as discussed in the paper, the third plots several Shapley plots and the fourth runs inference of the pipelines on your dataset(s). The notebooks only demonstrate the methods for one cohort (mortality six weeks after baseline). The method is always the same for each research question.
 
 You can use these notebooks with your own data, training results will then be saved in **results**. A dummy patient is included to show how the data should look like in **data/dummy_data.csv**. Make sure that you use the correct columns for each model, you can see what columns were used in the trained pipelines with:
 
